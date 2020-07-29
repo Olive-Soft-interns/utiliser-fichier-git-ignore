@@ -5,6 +5,8 @@ import javax.swing.JFrame;
 public class Main {
 	public static Scene scene ; 
 	public static void main(String[] arg) {
+		int a ; int b; 
+		
 	
 		
 		JFrame fenetre = new JFrame("mario 2018");
@@ -17,6 +19,7 @@ public class Main {
 		  scene=new Scene() ; 
 		 fenetre.setContentPane(scene);
 		 fenetre.setVisible(true);
+		 
 		 
 		  
 		   
