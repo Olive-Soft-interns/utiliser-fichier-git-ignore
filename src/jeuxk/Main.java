@@ -5,10 +5,11 @@ import javax.swing.JFrame;
 public class Main {
 	public static Scene scene ; 
 	public static void main(String[] arg) {
+		int a ; int b; 
 		
 	
 		
-		JFrame fenetre = new JFrame("mario 2018")
+		JFrame fenetre = new JFrame("mario 2018");
 		  fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		  fenetre.setSize(700, 360);
 		  fenetre.setLocationRelativeTo(null);
